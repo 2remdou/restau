@@ -1,0 +1,21 @@
+{
+  "name": "restau",
+  "version": "0.0.0",
+  "homepage": "null",
+  "authors": [
+    "Toure Mamadou"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.3",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.3"
+  }
+}

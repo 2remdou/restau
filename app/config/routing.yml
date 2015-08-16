@@ -1,0 +1,13 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+app_restaurant:
+    resource: app.restaurant
+    type: sylius.api
+    prefix: /api
+
+app_plat:
+    resource: app.plat
+    type: sylius.api
+    prefix: /api

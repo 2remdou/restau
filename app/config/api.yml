@@ -1,0 +1,10 @@
+sylius_resource:
+    resources:
+        app.restaurant:
+            driver: doctrine/orm
+            classes:
+                model: AppBundle\Entity\Restaurant
+        app.plat:
+            driver: doctrine/orm
+            classes:
+                model: AppBundle\Entity\Plat
